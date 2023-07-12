@@ -12,7 +12,31 @@
   background-size: cover;
   background-position: top;
 }
+/* Section3 */
+.card:hover{
+  transform: scale(0.9);
+  background: #ffc107;
+  color: white !important;
+  }
+.card:hover .bakeli{
+  color: #7cb8f1 !important;
+  }
+.card:hover .bakeli2{
+  color: #7cb8f1 !important;
+  font-weight: bold;
+  }
+  .card:hover .bouton{
+    background: #7cb8f1 !important;
+    color: white !important;
+    border: #7cb8f1 1px solid !important;
+  }
 /* Section6 */
+.sondage{
+  background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)), url('./img/zack-walker-iu0vI_V9218-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 textarea{
   height: 170px !important;
 }

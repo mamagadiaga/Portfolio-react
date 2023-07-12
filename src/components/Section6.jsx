@@ -1,10 +1,40 @@
 import React from "react";
 import Moi from "../img/WhatsApp Image 2022-11-25 at 12.53.15 PM (2)-PhotoRoom.png-PhotoRoom.png";
+import {SlNote} from 'react-icons/sl';
+import {TbMathSymbols} from 'react-icons/tb';
+import {VscDebugConsole} from 'react-icons/vsc';
+import {BsFire} from 'react-icons/bs';
 
 const Section6 = () => {
   return (
-    <div className="container p-5 pb-0" id="section6">
-      <h3 className="text-center text-info">RESTONS EN CONTACT</h3>
+    <div className="container-fluid p-5 pb-0" id="section6">
+        <div className="row text-white p-5 sondage text-center">
+            <div className="col-md-3 border-end border-3 colonne">
+                <h4>
+                    <SlNote /> <br />
+                    18 projets
+                </h4>
+            </div>
+            <div className="col-md-3 border-end border-3 colonne">
+                <h4>
+                    <TbMathSymbols /> <br />
+                    30 algorithmes
+                </h4>
+            </div>
+            <div className="col-md-3 border-end border-3 colonne">
+                <h4>
+                    <VscDebugConsole /> <br />
+                    10 console.log()
+                </h4>
+            </div>
+            <div className="col-md-3 border-end border-3 colonne">
+                <h4>
+                    <BsFire /> <br />
+                    16 border: solid red 1px;
+                </h4>
+            </div>
+        </div>
+      <h3 className="text-center text-info mt-5">RESTONS EN CONTACT</h3>
       <div className="row mt-5">
         <div className="col-md-6">
           <div class="row">

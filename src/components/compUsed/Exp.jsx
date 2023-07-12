@@ -8,7 +8,7 @@ const Carte2 = (prop) => {
             <h6>
                 Developeuse front-end alternance 
             </h6>
-          <h5 class="card-title text-warning">Janvier 2021</h5>
+          <h5 class="card-title text-warning bakeli2">Janvier 2021</h5>
           <p class="card-text">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.Some quick example text to build on the card title and make up the
